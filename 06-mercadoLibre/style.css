@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:rgb(237, 237, 237);
+}
+
+header{
+    background-color: rgb(255, 241, 89);
+    border: 1px solid rgba(219, 219, 219, 1);
+    display: flex;
+    position: fixed;
+
+}
+
+
+
+.header1{
+    margin-right: 150px;
+    margin-bottom: 10px;
+
+
+}
+.logo .logo-inicio{
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header1a{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+.pin-google{
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.header1a p{
+    color: grey;
+}
+
+.search{
+    margin-top: 10px;
+    margin-right: 80px;
+}
+
+.search input{
+    width: 580px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(219, 219, 219, 1);
+    font-size: 16px;
+    color: grey;
+}
+
+
+.header2 .navegacion a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+
+
+.header3a{
+    display: flex;
+    align-items: center;
+}
+
+.header3a .suscribe{
+    background-color: #7F0D9A;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.header3a .suscribe p{
+    color: white;
+    font-size: 15px;
+}
+
+.header3a .suscribe p span{
+    font-weight: bold;
+}
+
+.header3b{
+    padding-left: 25px;
+}
+
+.header3b nav{
+    margin-top: 5px;
+    display: flex;
+}
+
+.header3b nav a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+section{
+    display: flex;
+}
+
+/* BODY LEFT ENVIOS */
+
+.left{
+    width: 35%;
+    margin-top: 100px;
+}
+
+.left .Deremate h1{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.left .Deremate p{
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+
+
+.envios-general .Envios .enviosA{
+    margin-bottom: 10px;
+}
+
+.Envios .envios1{
+    display: flex;
+    margin-left: 80px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 80px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.envios1 .full-logo{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.envios1 p{
+    font-size: 13px;
+}
+
+.envios1 input{
+    margin-left: 10px;
+}
+
+
+.Envios .envios2{
+    display: flex;
+    margin-left: 80px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 60px;
+    align-items: center;
+    /* justify-content: center;     */
+}
+
+.Envios .envios2 p{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.Envios .envios2 input{
+    margin-left: 100px;
+}
+
+
+/* BODY LEFT CATEGORIAS */
+
+.Categorias{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 50%;
+    height: 100;
+}
+
+.Categorias h4{
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.Categorias a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+
+
+
+
+/* BODY RIGHT*/
+
+.right{
+    width: 65%;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.right .right1{
+    width: 100%;
+    display:flex;
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+/* BODY RIGHT ARTICULOS*/
+
+.right1 .right1a{
+    background-color:white;
+    border: 1px solid rgb(200, 200, 200);
+    height: 450px;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.right1 .right1a .articulo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 280px;
+}
+
+.right1 .right1a .articulo img{
+    margin-left: 20px;
+}
+
+.right1 .right1b .articulo img{
+    margin-left: 20px;
+}
+
+.right1 .right1c .articulo img{
+    margin-left: 20px;
+}
+
+
+.right1 .right1b .articulo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 280px;
+
+}
+
+.right1 .right1c .articulo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 280px;
+
+}
+.right1 .right1b{
+    background-color:white;
+    border: 1px solid rgb(200, 200, 200);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.right1 .right1c{
+    background-color:white;
+    border: 1px solid rgb(200, 200, 200);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.right .right1 .descripcion a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    /* margin-top: 10px;
+    margin-left: 20px; */
+    margin-left: 20px;
+}
+
+.right1 .precio h2{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.right1 .full-logo img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* .right .right1a .articulo {
+    background-color: #7F0D9A;
+
+} */
